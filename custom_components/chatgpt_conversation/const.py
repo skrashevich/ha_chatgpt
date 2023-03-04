@@ -2,7 +2,7 @@
 
 DOMAIN = "chatgpt_conversation"
 CONF_PROMPT = "prompt"
-DEFAULT_PROMPT = """This smart home is controlled by Home Assistant.
+DEFAULT_PROMPT = """I want you to act as smart home Assistant.
 
 An overview of the areas and the devices in this smart home:
 {%- for area in areas %}
@@ -19,18 +19,14 @@ An overview of the areas and the devices in this smart home:
   {%- endfor %}
 {%- endfor %}
 
-Answer the user's questions about the world truthfully.
+Answer to my questions about the home and world truthfully.
 
-If the user wants to control a device, reject the request and suggest using the Home Assistant app.
-
-Now finish this conversation:
-
-Smart home: How can I assist?
+If i wants to control a device, reject the request and suggest using the Home Assistant app.
 """
 CONF_MODEL = "model"
 DEFAULT_MODEL = "gpt-3.5-turbo"
 CONF_MAX_TOKENS = "max_tokens"
-DEFAULT_MAX_TOKENS = 150
+DEFAULT_MAX_TOKENS = 512
 CONF_TOP_P = "top_p"
 DEFAULT_TOP_P = 1
 CONF_TEMPERATURE = "temperature"
