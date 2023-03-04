@@ -22,3 +22,5 @@ conversation:
 to configuration.yaml
 
 11. You're all set
+
+In some cases, you may need to remove the built-in OpenAI integration and restart the homemassistant twice
