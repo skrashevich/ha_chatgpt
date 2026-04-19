@@ -1,4 +1,11 @@
 # ha_chatgpt
+
+<!-- badges:start -->
+[![GitHub stars](https://img.shields.io/github/stars/skrashevich/ha_chatgpt?style=flat-square)](https://github.com/skrashevich/ha_chatgpt/stargazers)
+[![Last commit](https://img.shields.io/github/last-commit/skrashevich/ha_chatgpt?style=flat-square)](https://github.com/skrashevich/ha_chatgpt/commits/main)
+[![License](https://img.shields.io/github/license/skrashevich/ha_chatgpt?style=flat-square)](https://github.com/skrashevich/ha_chatgpt/blob/main/LICENSE)
+<!-- badges:end -->
+
  ChatGPT Conversation for Home Assistant
 ## Installation
 
